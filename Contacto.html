@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rial Construcciones S.A.C</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- CSS Materialize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Iconos Materialize-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Iconos Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Estilos Generales-->
+    <link rel="stylesheet" href="main.css">
+    <!--Contactos.css-->
+    <link rel="stylesheet" href="contacto.css">
+    <!-- JavaScript Materialize-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body>
+
+    <style>
+         .nombre {
+      height: 55px;
+      width: 105px;
+      margin-left: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
+    .logo {
+      height: 65px;
+      width: 75px;
+    }
+    </style>
+   <!--Navbar-->
+	<nav>
+		<div class="nav-wrapper grey darken-2">
+			<a href="#!" class="brand-logo"><img src="img/Nombre.png" alt="" class="nombre"><img src="img/Logo.png" alt="" class="logo"></a>
+			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Galeria2.html">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<!--Responsive-->
+	<ul class="sidenav" id="mobile-demo">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="Galeria2.html">Proyectos</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+	<!--Responsive/-->
+	
+	<!--Navbar/-->
+
+    <!--Seccion de Formulario-->
+    <div class="section seccion">
+        <div class="row">
+            <!--Titular-->
+            <div class="col m6 s12 offset-m1">
+                <h1 class="left-align"><b>Ponte en contacto con nosotros</b></h1>
+            </div>
+            <!--Titular/-->
+
+            <!--Formulario-->
+            <div class="col m4 s12">
+                <div class="card-panel red darken-3 sombra">
+                    <div class="card-content white-text center-align ">
+                        <div class="row">
+                            <h3><b><span class="card-title ">Cont&aacute;ctanos</span></b></h3>
+                            <p class="center-align"><b>Escribenos lo que necesites y nosotros nos pondremos en
+                                    contactocontigo lo antes
+                                    posible</b></p>
+                        </div>
+
+                        <!--Formulario-->
+                        <div class="row">
+                            <!--Correo-->
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="E-mail" type="text" class="validate">
+                                <label for="E-mail" class="white-text">E-mail</label>
+                            </div>
+                            <!--Correo/-->
+
+                            <!--Nombre-->
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">person</i>
+                                <input id="nombres" type="text" class="validate">
+                                <label for="nombres" class="white-text">Nombres</label>
+                            </div>
+                            <!--Nombre/-->
+
+                            <!--Apellidos-->
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">supervisor_account</i>
+                                <input id="apellidos" type="text" class="validate">
+                                <label for="apellidos" class="white-text">Apellidos</label>
+                            </div>
+                            <!--Apellidos/-->
+                            
+                            <!--Mensaje-->
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">insert_comment</i>
+                                <textarea id="mensaje" rows="3" class="materialize-textarea"></textarea>
+                                <label for="mensaje" class="white-text">Mensaje</label>
+                            </div>
+                            <!--Mensaje/-->
+                            
+                            <!--Boton de Envio-->
+                            <a class="waves-effect waves-light btn amber accent-4 black-text boton col s12"><b>Enviar</b></a>
+                            <!--Boton de Envio/-->
+
+                        </div>
+                        <!--Formulario/-->
+                    </div>
+
+                </div>
+            </div>
+            <!--Formualrio/-->
+        </div>
+    </div>
+    <!--Seccion de Formulario/-->
+
+
+    <!--Footer-->
+    <footer class="page-footer grey darken-2">
+        <div class="container center-align">
+            <div class="row">
+                <a class="btn-floating btn-large waves-effect waves-light amber accent-4"><i class="fab fa-facebook-f black-text"></i></a>
+                <a class="btn-floating btn-large waves-effect waves-light amber accent-4"><i class="fab fa-whatsapp black-text"></i></a>
+                <a class="btn-floating btn-large waves-effect waves-light amber accent-4"><i class="far fa-envelope black-text"></i></a>
+            </div>
+            <div class="row">
+                <h6><b>Cotizaci&oacute;n</b> - <b>Servicios</b> - <b>Diseño</b> - <b>Remodelaci&oacute;n</b></h6>
+                <h6><b>+51949300568</b> <b>#697948</b></h6>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-3">
+            <div class="container center-align ">
+                © 2020-RialConstruccionesyServicios S.A.C
+            </div>
+        </div>
+    </footer>
+    <!--Footer/-->
+
+    <script>
+        M.AutoInit();
+    </script>
+
+</body>
+
+</html>
